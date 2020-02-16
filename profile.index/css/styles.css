@@ -1,0 +1,506 @@
+@font-face{
+    src: url(../font/PRIMETIME_PERSONALUSEONLY.ttf);
+    font-family: primetime;
+}
+body{
+    margin: 0px;
+    border: 0px;
+    background: linear-gradient(to bottom, black ,rgb(235, 20, 127),rgb(235, 20, 127),rgb(235, 20, 127),black);
+    
+}
+.blink{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.top{
+    background: linear-gradient(to bottom, black ,rgb(235, 20, 127),rgb(235, 20, 127),rgb(235, 20, 127),black);
+    height: 50px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+.banner
+{
+    height: 190%;
+    justify-content: center;
+    align-items: center ;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 0px;
+
+}
+.vid{
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    
+
+}
+.banner h1{
+    font-family: primetime;
+    font-size: 120px;
+    text-align: center;
+    margin-top: -50px;
+    text-transform: uppercase;
+   background-color:  rgb(235, 20, 127);
+    background-size: cover;
+    color: transparent;
+    letter-spacing: 3.5px;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    mix-blend-mode: screen;
+}
+#fanpage{
+    font-family:primetime;
+    font-size: 70px;
+    color:  rgb(235, 20, 127);
+    text-align: center;
+    margin-top:300px;
+    letter-spacing: 3.5px;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    mix-blend-mode: screen;
+}
+.top{
+    height: 50px;
+    background-color: rgb(235, 20, 127);
+    padding-top: 20px;
+    margin-top: 0px;
+}
+.home {
+    color: black;
+    font-size: 20px;
+    font-family: primetime;
+    letter-spacing: 2px;
+    margin-left: 40px;
+}
+.contact {
+    color: black;
+    font-size: 20px;
+    font-family: primetime;
+    letter-spacing: 2px;
+    margin-left: 40px;
+}
+
+.profile {
+    color: black;
+    font-size: 20px;
+    font-family: primetime;
+    letter-spacing: 2px;
+    margin-left: 40px;
+}
+.mid{
+    padding-top: 90px;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 400px;
+    border: 0px;
+    padding-left: 0px;
+  
+}
+.Profile{
+    background-color: black;
+    height: 50px;
+    color:  rgb(235, 20, 127);
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: primetime;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 3.3px;
+    border: 0px;
+}
+.info{
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    height: 300px;
+    margin-top: 50px;
+   
+}
+.name{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -90px;
+}
+
+.togeher{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+    border-radius: 100px;
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: left;
+    margin-left: -550px;
+    
+   
+}
+.dept{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: 155px;
+
+}
+.social{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: 115px;
+
+}
+.age{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -118px;
+}
+.playlist{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+  
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: right;
+    margin-left: 350px;
+
+}
+.secondinfo{
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    height: 300px;
+margin-top: 20px;
+}
+.names{
+    color:  rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -15px;
+
+}
+.together{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+    border-radius: 100px;
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: left;
+    margin-left: -550px;
+}
+.playt{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+  
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: right;
+    margin-left: 350px;
+}
+.age{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -130px;
+
+}
+.dept{
+    color:  rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: 140px;
+
+}
+.socials{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: 80px;
+
+}
+.thirdinfo{
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    height: 300px;
+    margin-top: 20px;
+}
+.nams{
+    color:rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -15px;
+}
+.agge{ color:   black;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -118px;
+
+
+
+}
+.togther{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+    border-radius: 100px;
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: left;
+    margin-left: -550px;
+}
+.plyt{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+  
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: right;
+    margin-left: 350px;
+
+}
+.ae{
+    color:  rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -118px;
+
+}
+.dpt{
+    color:  rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-right:50px ;
+}
+.scials{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: 140px;
+
+}
+.fourthinfo{
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    height: 300px;
+margin-top: 20px;
+}
+.namees{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -15px;
+
+}
+.togtheer{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+    border-radius: 100px;
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: left;
+    margin-left: -550px;
+}
+.plaayt{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+  
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: right;
+    margin-left: 350px;
+}
+.agge
+{
+    color:   rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -100px;
+}
+.deept{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: 90px;
+}
+.soocials{
+    color: rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-right: 50px;
+}
+.fifthinfo{
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+.namee{
+    color:   black;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: -15px;
+}
+.togthe{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+    border-radius: 100px;
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: left;
+    margin-left: -550px;   
+}
+.plaaayt{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+  
+    border-color: rgb(235, 20, 127);
+    border-style: double;
+    margin-top: -40px;
+    float: right;
+    margin-left: 350px;
+
+}
+.ag{
+    color:  rgb(250, 62, 156);
+font-size: 20px;
+font-family: sans-serif;
+line-height: 32px;
+margin-left: -118px;
+
+}
+.deeept{
+    color:  rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-left: 60px;
+
+}
+.sooocials{
+    color:   rgb(250, 62, 156);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-right: 80px;
+
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom:1%;
+}
+.facebook{
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+.insta{
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.youtube{
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: 60px;
+}
+#tb{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color:rgb(235, 20, 127);
+}
+#cr{
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:rgb(235, 20, 127);
+}
+.albums{
+    padding-bottom: 10%;
+}
+.middle{
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 40%;
+    border: 0px;
+    padding-left: 0px;
+}
+.pr{
+    background-color: black;
+    height: 50px;
+    color:  rgb(235, 20, 127);
+    padding-top: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: primetime;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 3.3px;
+    border: 0px;
+}.home:hover{
+    background-color: pink;
+}
+.contact:hover{
+    background-color: pink;
+}
+.profile:hover{
+    background-color: pink;
+}
